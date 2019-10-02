@@ -104,6 +104,8 @@ alias work='cd ~/Workspace'
 alias gus='git add -u && git status'
 alias gcm='git commit -m'
 alias giff='git diff --cached'
+alias gs='git status' 
+alias ga='git add' 
 alias o='xdg-open'
 
 # FONTS
