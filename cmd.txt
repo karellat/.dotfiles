@@ -1,0 +1,7 @@
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/3270.zip
+unzip 3270.zip
+echo "Remove Mono fonts"
+mv *.otf ~/.fonts
+mv *.ttf ~/.fonts
+git clone https://github.com/chriskempson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal\nsource ~/.config/base16-gnome-terminal/base16-default.dark.sh
